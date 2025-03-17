@@ -24,3 +24,5 @@ def visualize_graph(G: nx.Graph) -> None:
     nx.draw(G, pos, with_labels=True, node_color='lightblue', edge_color='gray', node_size=500)
     plt.savefig("graph.png")
     plt.show()
+
+# Selesai
